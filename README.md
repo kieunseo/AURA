@@ -58,7 +58,6 @@ streamlit run streamlit/home.py
 
 ## 프로젝트 구조
 ```
-
 ├── app/
 │   ├── sql_app/           
 │       ├── crud.py        # CRUD 로직
