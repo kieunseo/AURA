@@ -15,7 +15,7 @@ Base.metadata.create_all(bind=engine)
 app = FastAPI()
 
 # PersonalColorClassifier 인스턴스 생성
-classifier = PersonalColorClassifier(r'/Users/eunseo/Downloads/fx_project/api/shape_predictor_68_face_landmarks.dat')
+classifier = PersonalColorClassifier(r'/Users/eunseo/Downloads/AURA/api/shape_predictor_68_face_landmarks.dat')
 
 
 # DB 세션 가져오기
