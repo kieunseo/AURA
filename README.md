@@ -5,8 +5,6 @@
 
 https://github.com/user-attachments/assets/26428d8f-9508-4c73-bb6f-67ab66d90fe8
 
-
-
 ## 주요 기능
 - **이미지 기반 퍼스널 컬러 진단**
 - **진단 결과에 따른 맞춤형 패션 아이템 추천**
