@@ -33,7 +33,7 @@ Client <-> Streamlit Frontend <-> FastAPI Backend <-> MySQL Database
 ### 설치 방법
 ```bash
 # 저장소 클론
-git clone https://github.com/TAVE-Research/personal-color-recommendation.git
+git clone https://github.com/kieunseo/AURA.git
 
 # 가상환경 설정
 python -m venv venv
