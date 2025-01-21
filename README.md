@@ -44,17 +44,14 @@ source venv/bin/activate  # Windows: .\venv\Scripts\activate
 pip install -r requirements.txt
 
 # 환경변수 설정
-cp .env.example .env
 # .env 파일을 열어 필요한 설정값 입력
 ```
 
 ### 실행 방법
 ```bash
-# 데이터베이스 마이그레이션
-alembic upgrade head
 
 # FastAPI 서버 실행
-uvicorn app.main:app --reload --port 8000
+uvicorn app.main:app --reload
 
 # Streamlit 앱 실행
 streamlit run frontend/main.py
@@ -86,7 +83,7 @@ streamlit run frontend/main.py
 MIT License
 
 ## 팀원
-- **Frontend:**
-- **Backend:**
-- **ML/DL:**
-- **DB/DevOps:**
+- **팀장:** 기은서
+- **팀원:** 최정아
+- **팀원:** 이승희
+- **팀원:** 최윤성
