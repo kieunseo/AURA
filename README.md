@@ -53,7 +53,7 @@ pip install -r requirements.txt
 uvicorn app.main:app --reload
 
 # Streamlit 앱 실행
-streamlit run frontend/main.py
+streamlit run streamlit/home.py
 ```
 
 ## 프로젝트 구조
