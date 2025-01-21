@@ -60,15 +60,38 @@ streamlit run streamlit/home.py
 ```
 .
 ├── app/
-│   ├── api/            # API 라우터
-│   ├── core/           # 설정 및 상수
-│   ├── models/         # 데이터베이스 모델
-│   └── services/       # 비즈니스 로직
-├── frontend/
-│   ├── pages/          # Streamlit 페이지
-│   └── components/     # UI 컴포넌트
-├── tests/              # 테스트 코드
-├── alembic/            # DB 마이그레이션
+│   ├── sql_app/           
+│       ├── crud.py        # CRUD 로직
+│       ├── models.py      # 데이터베이스 모델 정의
+│       ├── schemas.py     # Pydantic 스키마 정의
+│       ├── database.py    # DB 연결 설정
+│   ├── item_recommendation.py  # 아이템 추천 로직
+│   ├── personal_color_classifier.py  # 퍼스널 컬러 분류기
+│   ├── shape_predictor_68_face_landmarks.dat  # 얼굴 랜드마크 모델
+│   └── main.py            # FastAPI 메인 실행 파일
+├── streamlit_app/
+│   ├── pages/             
+│       ├── 1_Personal_Color.py  # 퍼스널 컬러 분석 페이지
+│       ├── 2_Item_Recommendation.py  # 아이템 추천 페이지
+│       ├── images/              # 이미지 폴더
+│   ├── Home.py            # Streamlit 메인 페이지
+│   ├── homepgim.jpg       # 홈 이미지
+├── prsonal_color_dataset/ # 연예인 얼굴 이미지
+│   ├── images/          
+│   └── labels.csv
+├── fashoin_data/ # musinsa crawling
+│   ├── crawling_code/          
+│   └── data/ # 크롤링된 데이터
+├── sql_dataset/ # fashion data 전처리 및 MySQL 적재
+│   ├── csv_sql_upload.ipynb       # CSV 데이터를 SQL에 업로드하는 코드
+│   ├── fashion_data_preprocessing.ipynb  # 패션 데이터 전처리 코드
+│   ├── fashion_data.csv           # 최종 데이터
+│   ├── data.csv                   # 전처리 데이터
+│   └── data_original.csv          # 원본 데이터
+├── notebook/             
+│   ├── personal_visualization.ipynb  # 데이터 시각화 노트북    
+├── ppt/              
+├── readme_file/            
 ├── requirements.txt    
 └── README.md
 ```
