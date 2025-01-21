@@ -6,8 +6,7 @@
 ## 주요 기능
 - **이미지 기반 퍼스널 컬러 진단**
 - **진단 결과에 따른 맞춤형 패션 아이템 추천**
-- **사용자 진단 이력 관리**
-- **추천 아이템 통계 분석**
+- **사용자 추천 이력 관리**
 
 ## 기술 스택
 
@@ -17,7 +16,7 @@
 | Backend    | FastAPI                  |
 | Database   | MySQL                    |
 | Image Processing | OpenCV, PIL        |
-| ML/DL      | PyTorch, scikit-learn    |
+| Model      | PyTorch, scikit-learn    |
 
 ## 시스템 구성도
 ```
