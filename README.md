@@ -89,8 +89,7 @@ streamlit run streamlit/home.py
 │   └── data_original.csv          # 원본 데이터
 ├── notebook/             
 │   ├── personal_visualization.ipynb  # 데이터 시각화 노트북    
-├── ppt/              
-├── readme_file/            
+├── docs/                          
 ├── requirements.txt    
 └── README.md
 ```
